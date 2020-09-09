@@ -20,8 +20,10 @@
 
 .header-seller {
   height: 36px;
+  margin-top: 10px;
+  margin-left: auto;
   padding: 8px 18px;
-  color: $white;
+  color: #fff;
   background-color: #0674ec;
   border-radius: 18px;
   text-decoration: none;
@@ -36,7 +38,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #7c7979;
     margin-right: 22px;
   }
   
@@ -53,4 +54,131 @@
   }
 
 }
+
+.menu__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+  .menu__item {
+    display: inline-block;
+
+    & + .menu__item {
+      margin-left: 30px;
+    }
+  }
+
+  .menu__link {
+    font-family: 'Quicksand-Medium', sans-serif;
+    color: $color-menu;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+.search {
+  max-width: 360px;
+  position: relative;
+
+  .search__input {
+    display: block;
+    width: 360px;
+    height: 46px;
+    border: 1px solid #d9dfe5;
+    border-radius: 23px;
+    outline: transparent;
+    padding-left: 27px;
+    font-size: 15px;
+    line-height: 30px;
+    &:focus {
+      border: 1px solid #7ab7f9;
+    }
+    &::placeholder {
+      color: #898f96;
+    }
+  }
+
+  .search__btn {
+    position: absolute;
+    background-color: #0674ec;
+    box-shadow: none;
+    border: none;
+    border-radius: 23px;
+    padding: 15px 25px;
+    width: 70px;
+    height: 46px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    outline: transparent;
+  }
+  
+  /* .search__btn:before {
+    content: "";
+    background-image: url(../images/search.svg);
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+  } */
+}
+
+.digital {
+  min-height: 725px;
+
+  &__inner {
+    padding: 185px 0 50px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+
+    &--title {
+      margin-bottom: 20px;
+    }
+    &--subtitle {
+      font-family: 'Quicksand-Bold';
+    }
+    &--text {
+      font-size: 20px;
+      margin-bottom: 72px;
+    }
+  }
+}
+
+.digital__box {
+  height: 55px;
+  font-size: 16px;
+  line-height: 20px;
+
+  .digital__btn-white, .digital__btn-blue {
+    display: inline-block;
+    border-radius: 27px;
+    padding: 17px 31px;
+  }
+
+  .digital__btn-white {
+    background-color: #fff;
+    margin-right: 31px;
+    color: $text;
+  }
+
+  .digital__btn-blue {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+
+}
+
 
