@@ -10,14 +10,39 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
-      <a class="header__logo" href="#">
-        <img class="header__img" src="images/logo.png" alt="logo">
-      </a>
-      <a class="header-seller"  href="#">Become a Seller</a>
+      <div class="header__top">
+        <a class="header__logo" href="#">
+          <img class="header__img" src="images/logo.png" alt="logo">
+        </a>
+        <a class="header-seller" href="#">Become a Seller</a>
+        <div class="header__icons">
+          <a class="header__alarm" href="#"></a>
+          <a class="header__message" href="#"></a>
+          <a class="header__basket" href="#"></a>
+        </div>
+        <a class="header__client" href="#">
+          <img class="client-avatar" src="images/logo.png" alt="avatar">
+          <span class="client-name">Taofiq Hakim
+          <p class="client-sum">$20.45</p></span>
+        </a>
+      </div>
     </div>
   </header>
+  <nav class="header__menu">
+    <div class="container">
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">All products</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Wordpress</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Festures</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Pages</a></li>
+      </ul>
+      <div class="header__search-form"></div>
+    </div>
+  </nav>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
