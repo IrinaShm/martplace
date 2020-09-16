@@ -1,8 +1,8 @@
 $(function() {
 
   $('.featprod__inner').slick({
-    prevArrow:'<button class="slick-arrow slick-prew"><img src="images/icons/slick-left.png" alt="arrow"></button>',
-    nextArrow:'<button class="slick-arrow slick-next"><img src="images/icons/slick-right.png" alt="arrow"></button>',
+    prevArrow:'<button class="slick-arrow slick-prew"><span class="lnr lnr-chevron-left"></span></button>',
+    nextArrow:'<button class="slick-arrow slick-next"><span class="lnr lnr-chevron-right"></span></button>',
   });
   
   $(".rate-star").rateYo({
@@ -19,8 +19,8 @@ $(function() {
     slidesToShow: 3,
     slidesToScroll: 1,
     variableWidth: true,
-    prevArrow:'<button class="slick-arrow slick-prew prew-color"><img src="images/icons/slick-left.png" alt="arrow"></button>',
-    nextArrow:'<button class="slick-arrow slick-next next-color"><img src="images/icons/slick-right.png" alt="arrow"></button>',
+    prevArrow:'<button class="slick-arrow slick-prew prew-color"><span class="lnr lnr-chevron-left"></span></button>',
+    nextArrow:'<button class="slick-arrow slick-next next-color"><span class="lnr lnr-chevron-right"></span></button>',
   });
 
 });
