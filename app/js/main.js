@@ -1,6 +1,6 @@
 $(function() {
 
-  $('.featprod__inner').slick({
+  $('.weekly-products__inner').slick({
     prevArrow:'<button class="slick-arrow slick-prew"><span class="lnr lnr-chevron-left"></span></button>',
     nextArrow:'<button class="slick-arrow slick-next"><span class="lnr lnr-chevron-right"></span></button>',
   });
@@ -12,15 +12,22 @@ $(function() {
     normalFill: "#fff",
   });
 
-  var mixer = mixitup('.relprod__inner-box');
+  var mixer = mixitup('.release-products__inner-box');
 
-  $('.yourprod__inner').slick({
-    // infinite: true,
+  $('.followers-feed__inner').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     variableWidth: true,
     prevArrow:'<button class="slick-arrow slick-prew prew-color"><span class="lnr lnr-chevron-left"></span></button>',
     nextArrow:'<button class="slick-arrow slick-next next-color"><span class="lnr lnr-chevron-right"></span></button>',
+  });
+
+  $('.clients__inner').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    variableWidth: true,
+    prevArrow:'<button class="slick-arrow-item slick-prew-white"><span class="lnr lnr-chevron-left"></span></button>',
+    nextArrow:'<button class="slick-arrow-item slick-next-white"><span class="lnr lnr-chevron-right"></span></button>',
   });
 
 });
