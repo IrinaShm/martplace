@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MartPlace</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <main>
+    <div class="wrapper">
+      <div class="content page-content">
+        <header class="header">
+          <div class="container">
+            <div class="header__top">
+              <a class="header__logo" href="#">
+                <img class="header__img" src="images/logo.png" alt="logo">
+              </a>
+              <a class="header__seller" href="#">Become a Seller</a>
+              <div class="header__icons">
+                <a class="header__icon header__icon--alarm " href="#">
+                  <span class="lnr lnr-alarm"></span>25</a>
+                <a class="header__icon header__icon--message " href="#">
+                  <span class="lnr lnr-envelope"></span>6</a>
+                <a class="header__icon header__icon--basket " href="#">
+                  <span class="lnr lnr-cart"></span>2</a>
+              </div>
+              <a class="header__client client" href="#">
+                <img class="client__avatar" src="images/avatar.jpg" alt="avatar">
+                <div class="client__name">Taofiq Hakim
+                  <span class="client__sum">$20.45</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="header__menu">
+            <div class="container">
+              <div class="menu">
+                <div class="menu__inner">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a class="menu__link" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link" href="#">All products</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link" href="#">Wordpress</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link" href="#">Festures</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link" href="#">Pages</a>
+                    </li>
+                  </ul>
+                  <form class="search" action="">
+                    <label for="">
+                      <span class="speak">Search product here</span>
+                      <input class="search__input" type="search" placeholder="Search product here...">
+                    </label>
+                    <button class="search__btn" type="submit">
+                      <span class="speak">Search product here</span>
+                      <span class="lnr lnr-magnifier"></span>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <section class="page">
+        <div class="page__inner">
+          <div class="page__text">
+            <span>4,572</span> wordpress themes, made with love
+          </div>
+          <form class="page__search" action="">
+            <label for="">
+              <span class="speak">Search product here</span>
+              <input class="page__search-input" type="search" placeholder="Search product here...">
+            </label>
+            <button class="page__search-btn" type="submit">Search</button>
+          </form>
+          <div class="breadcrumbs">
+            <div class="breadcrumbs__inner">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Home</a></li>
+                <li class="breadcrumbs__item"><span class="breadcrumbs__link" href="#">Category Page Grid</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-page">
+        <div class="product-page__filter filter">
+          <div class="container">
+            <div class="filter__box">
+              <a class="filter__link" href="#">New Products</a>
+              <a class="filter__link" href="#">Popular Products</a>
+              <select class="filter__price">
+                <option value="Price:Low to High">Price : Low to High</option>
+                <option value="Price:Descending">Price : Descending</option>
+              </select>
+              <select class="filter__number">
+                <option value="12 Items Per Page">12 Items Per Page</option>
+                <option value="15 Items Per Page">15 Items Per Page</option>
+                <option value="18 Items Per Page">18 Items Per Page</option>
+              </select>
+              <div class="filter__buttons">
+                <button class="filter__button active icon-border-outer"></button>
+                <button class="filter__button lnr lnr-list"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="product-page__inner">
+            <aside class="product-page__aside aside">
+              <div class="aside__category aside__items">
+                <div class="aside__title">
+                  Categories
+                </div>
+                <ul class="aside__list">
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Landing
+                      Page</a><span>45</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Psd
+                      Template</a><span>13</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link"
+                      href="#">Wordpress</a><span>35</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Plugins</a><span>08</span>
+                  </li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">HTML
+                      Template</a><span>34</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link"
+                      href="#">Components</a><span>78</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Joomla
+                      Template</a><span>26</span></li>
+                </ul>
+              </div>
+              <div class="aside__filter-product aside__items">
+                <div class="aside__title">
+                  Filter Products
+                </div>
+                <ul class="aside__list">
+                  <li class="aside__item"><a class="aside__link" href="#">Trending Products</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">Popular Products</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">New Products</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">Best Seller</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">Best Rating</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">Low Price</a></li>
+                  <li class="aside__item"><a class="aside__link" href="#">High Price</a></li>
+                </ul>
+              </div>
+              <div class="price-range aside__items">
+                <div class="aside__title">
+                  Pricing Range
+                </div>
+                <form action="">
+                  <input type="text" class="js-range-slider" name="my_range" value="" />
+                  <button type="submit">Search Update</button>
+                </form>
+              </div>
+            </aside>
+            <div class="product-page__content">
+              <div class="product-page__items">
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-page__item products__item">
+                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="product-page__products-content">
+                    <a class="product-page__title products__title title" href="#">
+                      Finance and Consulting
+                      Business Theme Praesent phare dum mollis
+                    </a>
+                    <div class="product-page__text">
+                      Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
+                      molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
+                    </div>
+                    <a class="product-page__author products__author author" href="#">
+                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                      Theme-Valley
+                    </a>
+                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
+                      <span class="btn-text">Add like</span>
+                      90 loves</button>
+                    <span class="product-page__message products__message products__btn">90 Comments</span>
+                    <div class="product-page__star products__star">
+                      <div class="rate-star"></div>
+                      <span class="star">(34)</span>
+                    </div>
+                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
+                      <span class="btn-text">Add basket</span>
+                      246</button>
+                    <div class="product-page__block products__block">
+                      <div class="product-page__price products__price price">$18 - $50</div>
+                      <a class="product-page__category products__category category" href="#">
+                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                        Wordpress
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-page__pagination pagination">
+                <ul class="pagination__list">
+                  <button class="pagination__button lnr lnr-arrow-left"></button>
+                  <li class="pagination__item"><a href="#" class="pagination__link active">1</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__link">...</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__link">8</a></li>
+                  <button class="pagination__button lnr lnr-arrow-right"></button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready">
+        <div class="ready__inner">
+          <div class="ready__title">
+            Ready to Join Our Marketplace!
+          </div>
+          <div class="ready__text">
+            Over 25,000 designers and developers trust the MartPlace.
+          </div>
+          <a class="ready__btn sell__item-btn" href="#">Join Us Today</a>
+        </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col">
+            <a class="footer__logo" href="#">
+              <img class="footer__img" src="images/logo-footer.png" alt="logo">
+            </a>
+            <div class="footer__col-text">
+              Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo
+              quam.
+            </div>
+            <a class="footer__info" href="tel:67898752235">+6789-875-2235</a>
+            <a class="footer__info footer__info--email" href="mailto:support@aazztech.com">support@aazztech.com</a>
+            <div class="footer__info footer__info--address">
+              202 New Hampshire Avenue
+              Northwest #100, New York-2573
+            </div>
+          </div>
+          <div class="footer__col footer__col-menu">
+            <div class="footer__col-title">Our Company</div>
+            <ul class="footer__col-list">
+              <li><a class="footer__col-link" href="#">How It Work</a></li>
+              <li><a class="footer__col-link" href="#">Affiliates</a></li>
+              <li><a class="footer__col-link" href="#">About Us</a></li>
+              <li><a class="footer__col-link" href="#">Testimonials</a></li>
+              <li><a class="footer__col-link" href="#">Contact Us</a></li>
+              <li><a class="footer__col-link" href="#">Copyright Notice</a></li>
+              <li><a class="footer__col-link" href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col-menu">
+            <div class="footer__col-title">Help Support</div>
+            <ul class="footer__col-list">
+              <li><a class="footer__col-link" href="#">Support Forum</a></li>
+              <li><a class="footer__col-link" href="#">Terms & Conditions</a></li>
+              <li><a class="footer__col-link" href="#">Support Policy</a></li>
+              <li><a class="footer__col-link" href="#">Refund Policy</a></li>
+              <li><a class="footer__col-link" href="#">FAQs</a></li>
+              <li><a class="footer__col-link" href="#">Buyers Faq</a></li>
+              <li><a class="footer__col-link" href="#">Sellers Faq</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="footer__col-title">Newsletter</div>
+            <div class="footer__col-text">
+              Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
+            </div>
+            <form class="footer__form-email" action="">
+              <label for="">
+                <span class="speak">Enter email</span>
+                <input class="footer__input" type="email" placeholder="Enter email">
+              </label>
+              <button class="footer__btn" type="submit">Submit</button>
+            </form>
+            <ul class="footer__social-link">
+              <li><a class="link-facebook" href="#"></a></li>
+              <li><a class="link-twitter" href="#"></a></li>
+              <li><a class="link-google" href="#"></a></li>
+              <li><a class="link-pinterest" href="#"></a></li>
+              <li><a class="link-linkedin" href="#"></a></li>
+              <li><a class="link-zone" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="footer__copy-text">
+          ©2017 <a class="footer__copy-link" href="#">MartPlace.</a> All rights reserved. Created by <a
+            class="footer__copy-link" href="#">AazzTech</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <!-- <script src="js/main.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -8,6 +8,11 @@ html {
 	box-sizing: inherit;
 }
 
+html,
+body {
+	height: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,8 +32,57 @@ body {
   color: $color-text;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.page-content {
+  background-color: #eff1f5;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.breadcrumbs {
+  &__inner {
+    padding-top: 30px;
+  }
+
+  &__item {
+    display: inline-block;
+    position: relative;
+
+    & + .breadcrumbs__item {
+      padding-left: 24px;
+
+      &::before {
+        content: '/';
+        position: absolute;
+        left: 8px;
+        color: #fff;
+      }
+    }
+
+    &:last-child {
+      .breadcrumbs__link, 
+      span {
+        color: #bfcad7;
+      }
+    }
+  }
+
+  &__link {
+    color: #fff;
+  }
 }
