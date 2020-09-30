@@ -724,6 +724,9 @@
   &__item-title {
     display: block;
     margin-bottom: 20px;
+    line-height: 30px;
+    max-height: 35px;
+    overflow: hidden;
   }
 
   &__item-text {
@@ -804,11 +807,22 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding: 0 29px;
+  }
+
+  &__products-title {
+    max-height: 65px;
+    overflow: hidden;
+  }
+
+  &__products-text {
+    max-height: 85px;
+    overflow: hidden;
   }
 
   &__filter-btn {
     background-color: #fff;
-    height: 58px;
+    min-height: 110px;
     border: none;
     font-size: 16px;
     line-height: 20px;
@@ -840,6 +854,10 @@
       color: $color-text;
 
       &:hover {
+        color: #0674ec;
+      }
+
+      &:focus {
         color: #0674ec;
       }
     }
@@ -874,6 +892,14 @@
     display: block;
   }
 
+  .drop>.release-products__filter-btn:focus+.filter-drop-down {
+    display: block;
+  }
+
+  .filter-drop-down:focus {
+    display: block;
+  }
+
   .release-products__filter-btn {
     padding-right: 30px;
     position: relative;
@@ -881,7 +907,7 @@
     &::after {
       content: url(../images/icons/points.svg);
       position: absolute;
-      top: 20px;
+      top: 47px;
       right: 0;
     }
   }
@@ -1101,6 +1127,25 @@
 
   &__item {
     margin-right: 30px;
+    min-height: 554px;
+  }
+
+  &__products-title {
+    max-height: 65px;
+    overflow: hidden;
+  }
+
+  &__products-text {
+    max-height: 85px;
+    overflow: hidden;
+  }
+
+  &__products-content {
+    min-height: 263px;
+  }
+
+  &__products-block {
+    margin-top: auto;
   }
 
   .prew-color,
@@ -1408,6 +1453,8 @@
 
   &__item-text {
     line-height: 30px;
+    max-height: 114px;
+    overflow: hidden;
   }
 
   .bubble {
@@ -1472,14 +1519,20 @@
     max-height: 184px;
   }
 
-  &__text-box {
-    max-height: 90px;
+  &__block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__products-content {
+    max-height: 156px;
     overflow: hidden;
   }
 
-  &__block {
-    display: flex;
-    justify-content: flex-end;
+  &__products-title {
+    max-height: 65px;
+    overflow: hidden;
   }
 }
 
@@ -1575,13 +1628,17 @@
     line-height: 30px;
     color: #000;
     font-weight: 500;
+  }
 
-    span {
-      color: #0674ec;
+  &__link {
+    color: #0674ec;
+
+    &--color {
+      color: #7347c1;
     }
 
-    .span-color {
-      color: #7347c1;
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
