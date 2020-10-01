@@ -19,12 +19,12 @@
         <a class="header__seller" href="#">Become a Seller</a>
         <div class="header__icons">
           <a class="header__icon header__icon--alarm " href="#">
-            <span class="lnr lnr-alarm"></span>25</a>
+            <span class="lnr-icon lnr-alarm"></span>25</a>
           <a class="header__icon header__icon--message " href="#">
-            <span class="lnr lnr-envelope"></span>6</a>
+            <span class="lnr-icon lnr-envelope"></span>6</a>
           <div class="header__dropdown dropdown">
             <a class="header__icon header__icon--basket" href="#">
-              <span class="header__icon-span lnr lnr-cart"></span>2</a>
+              <span class="lnr-icon header__icon-span lnr-cart"></span>2</a>
             <div class="header__dropdown-cart dropdown-menu dropdown-menu--cart">
               <div class="header__item">
                 <div class="header__info">
@@ -87,55 +87,60 @@
       <div class="container">
         <div class="menu">
           <div class="menu__inner">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <div class="menu__dropdown dropdown">
-                  <a class="menu__link" href="#">Home</a>
-                  <ul class="menu__dropdown-home dropdown-menu">
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home One Multi User</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Two Single User</a>
-                    </li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Three Product</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu__item">
-                <div class="menu__dropdown dropdown">
-                  <a class="menu__link" href="#">All products</a>
-                  <ul class="menu__dropdown-allproducts dropdown-menu">
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Recent Items</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Featured Items</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Free Templates</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Follow Feed</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Top Authorso</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu__item">
-                <div class="menu__dropdown dropdown">
-                  <a class="menu__link" href="#">Wordpress</a>
-                  <ul class="menu__dropdown-wordpress dropdown-menu">
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Admin Templates</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Blog / Magazine / News</a>
-                    </li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Creative</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Corporate Business</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Resume Portfolio</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">eCommerce</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Entertainment</a></li>
-                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Landing Pages</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">Festures</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">Pages</a>
-              </li>
-            </ul>
+            <nav class="menu__wrap">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <div class="menu__dropdown dropdown">
+                    <a class="menu__link" href="#">Home</a>
+                    <ul class="menu__dropdown-home dropdown-menu">
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home One Multi User</a>
+                      </li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Two Single User</a>
+                      </li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Three Product</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__dropdown dropdown">
+                    <a class="menu__link" href="#">All products</a>
+                    <ul class="menu__dropdown-allproducts dropdown-menu">
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Recent Items</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Featured Items</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Free Templates</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Follow Feed</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Top Authorso</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__dropdown dropdown">
+                    <a class="menu__link" href="#">Wordpress</a>
+                    <ul class="menu__dropdown-wordpress dropdown-menu">
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Admin Templates</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Blog / Magazine / News</a>
+                      </li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">createive</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Corporate Business</a>
+                      </li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Resume Portfolio</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">eCommerce</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Entertainment</a></li>
+                      <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Landing Pages</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Festures</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Pages</a>
+                </li>
+              </ul>
+            </nav>
             <form class="search" action="">
               <label for="">
                 <span class="speak">Search product here</span>
@@ -152,32 +157,32 @@
     </div>
   </header>
   <main>
-    <section class="creat">
+    <section class="create">
       <div class="container">
-        <div class="creat__inner">
-          <div class="creat__inner--title">
+        <div class="create__inner">
+          <div class="create__inner--title">
             Create Your Own
           </div>
-          <div class="creat__inner--subtitle">
+          <div class="create__inner--subtitle">
             Digital Product Marketplace
           </div>
-          <div class="creat__inner--text">
-            MartPlace is the most powerful, & customizable template for Easy creat Downloads Products
+          <div class="create__inner--text">
+            MartPlace is the most powerful, & customizable template for Easy create Downloads Products
           </div>
-          <div class="creat__box">
-            <a class="creat__btn btn-big" href="#">View All Products</a>
-            <a class="creat__btn btn-big" href="#">Popular Products</a>
+          <div class="create__box">
+            <a class="create__btn btn-big btn-big--size" href="#">View All Products</a>
+            <a class="create__btn btn-big btn-big--size" href="#">Popular Products</a>
           </div>
         </div>
-        <div class="creat__search">
-          <form class="search__element" action="">
+        <div class="create__search">
+          <form class="create__search-form" action="">
             <label for="">
               <span class="speak">Search product here</span>
-              <input class="element-input" type="search" placeholder="Search product here...">
+              <input class="create__form-input" type="search" placeholder="Search product here...">
             </label>
-            <button class="element-btn" type="submit">Search Now</button>
-            <div class="creat__select">
-              <select class="select__category">
+            <button class="create__form-btn" type="submit">Search Now</button>
+            <div class="create__select">
+              <select class="create__select-category">
                 <option value="All Categories">All Categories</option>
                 <option value="WordPress">WordPress</option>
                 <option value="Plugins">Plugins</option>
@@ -228,55 +233,57 @@
         <div class="weekly-products__title prod-title">
           Weekly Featured Products
         </div>
-        <div class="weekly-products__block">
+        <div class="weekly-products__block-wrap">
           <div class="weekly-products__inner">
             <div class="weekly-products__box">
               <div class="weekly-products__item">
-                <div class="weekly-products__item-img">
-                  <img src="images/content/prod2.jpg" alt="">
+                <div class="weekly-products__img">
+                  <img class="weekly-products__img-prod" src="images/content/prod2.jpg" alt="">
                   <div class="img-hover img-hover--big">
-                    <a class="btn-big btn-big--size" href="#">More Info</a>
-                    <a class="btn-big btn-big--size" href="#">Live Demo</a>
+                    <a class="weekly-products__btn-big btn-big" href="#">Live Demo</a>
+                    <a class="weekly-products__btn-big btn-big" href="#">More Info</a>
                   </div>
                 </div>
-                <div class="weekly-products__item-content">
+                <div class="weekly-products__content">
                   <a class="weekly-products__item-title title" href="#">
                     One Page Resume Template One Page Resume Template One Page Resume Template
                   </a>
-                  <div class="weekly-products__item-info info">
-                    <a class="weekly-products__item-author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                  <div class="weekly-products__info info">
+                    <a class="weekly-products__author author" href="#">
+                      <img class="weekly-products__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       AazzTech
                     </a>
-                    <a class="weekly-products__item-category category" href="#">
+                    <a class="weekly-products__category category" href="#">
                       WordPress
                     </a>
                   </div>
-                  <div class="weekly-products__item-text">
+                  <div class="weekly-products__text">
                     Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
                     quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra justo ut scelerisque
                     themattis,leo quam aliquet congue justo ut scelerisque.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur consequuntur possimus dicta neque ut cumque maxime, modi porro recusandae, aliquam atque distinctio quaerat reiciendis sint dolore eos alias explicabo.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur consequuntur
+                    possimus dicta neque ut cumque maxime, modi porro recusandae, aliquam atque distinctio quaerat
+                    reiciendis sint dolore eos alias explicabo.
                   </div>
-                  <div class="weekly-products__item-tags">
-                    <a href="#" class="weekly-products__item-tags-link btn">website</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">website</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
+                  <div class="weekly-products__tags">
+                    <a href="#" class="weekly-products__tags-link btn">website</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
+                    <a href="#" class="weekly-products__tags-link btn">website</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
                   </div>
-                  <div class="weekly-products__item-block">
-                    <div class="weekly-products__item-price price">$10 - $50</div>
-                    <button class="products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                  <div class="weekly-products__block">
+                    <div class="weekly-products__price price">$10 - $50</div>
+                    <button class="weekly-products__btn products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90</button>
-                    <button class="products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="weekly-products__btn products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="weekly-products__item__star">
+                    <div class="weekly-products__star">
                       <div class="rate-star"></div>
                     </div>
                   </div>
@@ -285,50 +292,53 @@
             </div>
             <div class="weekly-products__box">
               <div class="weekly-products__item">
-                <div class="weekly-products__item-img">
-                  <img src="images/content/prod2.jpg" alt="">
+                <div class="weekly-products__img">
+                  <img class="weekly-products__img-prod" src="images/content/prod2.jpg" alt="">
                   <div class="img-hover img-hover--big">
-                    <a class="btn-big btn-big--size" href="#">More Info</a>
-                    <a class="btn-big btn-big--size" href="#">Live Demo</a>
+                    <a class="weekly-products__btn-big btn-big" href="#">Live Demo</a>
+                    <a class="weekly-products__btn-big btn-big" href="#">More Info</a>
                   </div>
                 </div>
-                <div class="weekly-products__item-content">
+                <div class="weekly-products__content">
                   <a class="weekly-products__item-title title" href="#">
-                    One Page Resume Template  Nunc placerat mi id nisi interdum mollis
+                    One Page Resume Template One Page Resume Template One Page Resume Template
                   </a>
-                  <div class="weekly-products__item-info info">
-                    <a class="weekly-products__item-author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                  <div class="weekly-products__info info">
+                    <a class="weekly-products__author author" href="#">
+                      <img class="weekly-products__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       AazzTech
                     </a>
-                    <a class="weekly-products__item-category category" href="#">
+                    <a class="weekly-products__category category" href="#">
                       WordPress
                     </a>
                   </div>
-                  <div class="weekly-products__item-text">
+                  <div class="weekly-products__text">
                     Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
                     quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra justo ut scelerisque
                     themattis,leo quam aliquet congue justo ut scelerisque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur consequuntur
+                    possimus dicta neque ut cumque maxime, modi porro recusandae, aliquam atque distinctio quaerat
+                    reiciendis sint dolore eos alias explicabo.
                   </div>
-                  <div class="weekly-products__item-tags">
-                    <a href="#" class="weekly-products__item-tags-link btn">website</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">website</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">plugin</a>
-                    <a href="#" class="weekly-products__item-tags-link btn">landing page</a>
+                  <div class="weekly-products__tags">
+                    <a href="#" class="weekly-products__tags-link btn">website</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
+                    <a href="#" class="weekly-products__tags-link btn">website</a>
+                    <a href="#" class="weekly-products__tags-link btn">plugin</a>
+                    <a href="#" class="weekly-products__tags-link btn">landing page</a>
                   </div>
-                  <div class="weekly-products__item-block">
-                    <div class="weekly-products__item-price price">$10 - $50</div>
-                    <button class="products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                  <div class="weekly-products__block">
+                    <div class="weekly-products__price price">$10 - $50</div>
+                    <button class="weekly-products__btn products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90</button>
-                    <button class="products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="weekly-products__btn products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="weekly-products__item__star">
+                    <div class="weekly-products__star">
                       <div class="rate-star"></div>
                     </div>
                   </div>
@@ -337,286 +347,308 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <section class="release-products">
       <div class="container">
-        <div class="release-products__header  prod-title">
+        <div class="release-products__header prod-title">
           <div class="release-products__title">
             Newest Release Products
           </div>
-          <div class="drop">
+          <div class="release-products__drop">
             <button class="release-products__filter-btn" type="button">
               Filter by:
             </button>
-            <ul class="filter-drop-down">
-              <li class="filter-drop-down__item">
-                <a class="filter-drop-down__link" href="#">Trending items</a>
+            <ul class="release-products__filter-dropdown filter-dropdown">
+              <li class="filter-dropdown__item">
+                <a class="filter-dropdown__link" href="#">Trending items</a>
               </li>
-              <li class="filter-drop-down__item">
-                <a class="filter-drop-down__link" href="#">Best seller</a>
+              <li class="filter-dropdown__item">
+                <a class="filter-dropdown__link" href="#">Best seller</a>
               </li>
-              <li class="filter-drop-down__item">
-                <a class="filter-drop-down__link" href="#">Best rating</a>
+              <li class="filter-dropdown__item">
+                <a class="filter-dropdown__link" href="#">Best rating</a>
               </li>
-              <li class="filter-drop-down__item">
-                <a class="filter-drop-down__link" href="#">Low price</a>
+              <li class="filter-dropdown__item">
+                <a class="filter-dropdown__link" href="#">Low price</a>
               </li>
-              <li class="filter-drop-down__item">
-                <a class="filter-drop-down__link" href="#">High price</a>
+              <li class="filter-dropdown__item">
+                <a class="filter-dropdown__link" href="#">High price</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="release-products__inner">
           <div class="release-products__inner-btn">
-            <button class="release-products-btn btn" type="button" data-filter=".category-plugins">Plugins</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-wordPress">WordPress</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-site-template">Site
+            <button class="release-products__btn btn" type="button" data-filter=".category-plugins">Plugins</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-wordPress">WordPress</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-site-template">Site
               Template</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-psd-template">PSD
+            <button class="release-products__btn btn" type="button" data-filter=".category-psd-template">PSD
               Template</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-joomla">Joomla</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-user-interface">User
+            <button class="release-products__btn btn" type="button" data-filter=".category-joomla">Joomla</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-user-interface">User
               Interface</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-landing-page">Landing
+            <button class="release-products__btn btn" type="button" data-filter=".category-landing-page">Landing
               Page</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-software">Software</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-software">Software</button>
-            <button class="release-products-btn btn" type="button" data-filter=".category-software">Software</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-software">Software</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-software">Software</button>
+            <button class="release-products__btn btn" type="button" data-filter=".category-software">Software</button>
           </div>
           <div class="release-products__inner-box">
-            <div class="products__item mix category-plugins category-new" data-order="1">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-plugins category-new" data-order="1">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="release-products__products-title products__title title" href="#">
-                  E-commerce Shoping features Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium eligendi sapiente suscipit repellat quis quisquam tempore deleniti eaque hic, inventore, harum, non totam magnam atque corrupti explicabo ad temporibus. Perferendis.
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+                    eligendi sapiente
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/avatar.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus
+                    repudiandae harum ab sint, minus nesciunt quaerat ut autem voluptatum, libero corporis minima
+                    provident voluptatibus maxime nostrum sapiente soluta in!
+                  </div>
                 </div>
-                <div class="release-products__products-text products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus repudiandae harum ab sint, minus nesciunt quaerat ut autem voluptatum, libero corporis minima provident voluptatibus maxime nostrum sapiente soluta in!
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20 - $50</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20 - $50</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="products__item mix category-psd-template" data-order="2">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod2.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-psd-template" data-order="2">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod2.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="release-products__products-title products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="products__item mix category-site-template category-new" data-order="3">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod3.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-site-template category-new" data-order="3">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod3.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20-$500</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20-$500</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="products__item mix category-wordPress" data-order="4">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod4.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-wordPress" data-order="4">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod4.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="release-products__products-title products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="release-products-item__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="products__item mix category-joomla category-new" data-order="5">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-joomla category-new" data-order="5">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="release-products__products-title products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="products__item mix category-software" data-order="6">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="release-products__products-card products-card">
+              <div class="products-card__item mix category-software" data-order="6">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="release-products__btn-big btn-big" href="#">More Info</a>
+                    <a class="release-products__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="products__content">
-                <a class="release-products__products-title products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
           </div>
-          <div class="products__bottom-btn">
-            <button class="products__button" type="button" data-filter=".category-new">All New Products</button>
+          <div class="release-products__bottom-btn bottom-btn">
+            <button class="bottom-btn__button" type="button" data-filter=".category-new">All New Products</button>
           </div>
         </div>
       </div>
@@ -627,167 +659,190 @@
         <div class="followers-feed__title prod-title">
           Your Followers Feed
         </div>
-        <div class="followers-feed__block">
+        <div class="followers-feed__block-wrap">
           <div class="followers-feed__inner">
-            <div class="followers-feed__item products__item">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="followers-feed__products-card products-card">
+              <div class="followers-feed__item products-card__item">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="followers-feed__btn-big btn-big" href="#">More Info</a>
+                    <a class="followers-feed__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="followers-feed__products-content products__content">
-                <a class="followers-feed__products-title products__title title" href="#">
-                  E-commerce Shoping features Nunc placerat mi id nisi interdum mollis
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, odio! Cumque minus, qui
+                    corrupti
+                    sapiente unde, laborum quam quae eius fuga facere, explicabo ipsam. Hic ab ipsam fugit nisi! Velit?
+                  </div>
                 </div>
-                <div class="followers-feed__products-text products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, odio! Cumque minus, qui corrupti sapiente unde, laborum quam quae eius fuga facere, explicabo ipsam. Hic ab ipsam fugit nisi! Velit?
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="followers-feed__products-block products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="followers-feed__item products__item">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="followers-feed__products-card products-card">
+              <div class="followers-feed__item products-card__item">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="followers-feed__btn-big btn-big" href="#">More Info</a>
+                    <a class="followers-feed__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="followers-feed__products-content products__content">
-                <a class="products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, odio! Cumque minus, qui
+                    corrupti
+                    sapiente unde, laborum quam quae eius fuga facere, explicabo ipsam. Hic ab ipsam fugit nisi! Velit?
+                  </div>
                 </div>
-                <div class="followers-feed__products-text products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="followers-feed__products-block products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="followers-feed__item products__item">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="followers-feed__products-card products-card">
+              <div class="followers-feed__item products-card__item">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="followers-feed__btn-big btn-big" href="#">More Info</a>
+                    <a class="followers-feed__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="followers-feed__products-content products__content">
-                <a class="products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, odio! Cumque minus, qui
+                    corrupti
+                    sapiente unde, laborum quam quae eius fuga facere, explicabo ipsam. Hic ab ipsam fugit nisi! Velit?
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
-            <div class="followers-feed__item products__item">
-              <div class="products__img">
-                <img class="products__img-content" src="images/content/prod1.jpg" alt="">
-                <div class="img-hover">
-                  <a class="btn-big btn-big--size" href="#">More Info</a>
-                  <a class="btn-big btn-big--size" href="#">Live Demo</a>
+            <div class="followers-feed__products-card products-card">
+              <div class="followers-feed__item products-card__item">
+                <div class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod1.jpg" alt="">
+                  <div class="img-hover">
+                    <a class="followers-feed__btn-big btn-big" href="#">More Info</a>
+                    <a class="followers-feed__btn-big btn-big" href="#">Live Demo</a>
+                  </div>
                 </div>
-              </div>
-              <div class="followers-feed__products-content products__content">
-                <a class="products__title title" href="#">
-                  E-commerce Shoping features
-                </a>
-                <div class="products__info info">
-                  <a class="products__author author" href="#">
-                    <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
-                    Theme-Valley
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    E-commerce Shoping features
                   </a>
-                  <a class="products__category category" href="#">
-                    <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
-                    Plugin
-                  </a>
+                  <div class="products-card__info info">
+                    <a class="products-card__author author" href="#">
+                      <img class="products-card__avatar avatar" src="images/author.jpg" alt="avatar">
+                      Theme-Valley
+                    </a>
+                    <a class="products-card__category category" href="#">
+                      <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
+                      Plugin
+                    </a>
+                  </div>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, odio! Cumque minus, qui
+                    corrupti
+                    sapiente unde, laborum quam quae eius fuga facere, explicabo ipsam. Hic ab ipsam fugit nisi! Velit?
+                  </div>
                 </div>
-                <div class="products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
+                <div class="products-card__block">
+                  <div class="products-card__price price">$20</div>
+                  <button class="products-card__btn-like products-card__btn" type="button">
+                    <span class="speak">Add like</span>
+                    90</button>
+                  <div class="products-card__star">
+                    <div class="rate-star"></div>
+                  </div>
+                  <button class="products-card__btn-basket products-card__btn" type="button">
+                    <span class="speak">Add basket</span>
+                    246</button>
                 </div>
-              </div>
-              <div class="products__block">
-                <div class="products__price price">$20</div>
-                <button class="products__btn-like products__btn" type="button">
-                  <span class="btn-text">Add like</span>
-                  90</button>
-                <div class="products__star">
-                  <div class="rate-star"></div>
-                </div>
-                <button class="products__btn-basket products__btn" type="button">
-                  <span class="btn-text">Add basket</span>
-                  246</button>
               </div>
             </div>
           </div>
@@ -850,10 +905,10 @@
           </div>
           <div class="choose__box">
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 01
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-license lnr-icon"></span>
                 <div class="choose__item-title title">
                   One Time Payment
@@ -865,10 +920,10 @@
               </div>
             </div>
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 02
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-magic-wand lnr-icon"></span>
                 <div class="choose__item-title title">
                   Quality Products
@@ -880,10 +935,10 @@
               </div>
             </div>
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 03
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-lock lnr-icon"></span>
                 <div class="choose__item-title title">
                   100% Secure Payment
@@ -895,10 +950,10 @@
               </div>
             </div>
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 04
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-chart-bars lnr-icon"></span>
                 <div class="choose__item-title title">
                   Well Organized Code
@@ -910,10 +965,10 @@
               </div>
             </div>
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 05
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-leaf lnr-icon"></span>
                 <div class="choose__item-title title">
                   Life Time Free Update
@@ -925,10 +980,10 @@
               </div>
             </div>
             <div class="choose__item">
-              <div class="choose__item-number">
+              <div class="choose__number">
                 06
               </div>
-              <div class="choose__item-wrap">
+              <div class="choose__block">
                 <span class="lnr lnr-phone lnr-icon"></span>
                 <div class="choose__item-title title">
                   Fast and Friendly Support
@@ -946,24 +1001,24 @@
 
     <section class="sell">
       <div class="sell__item">
-        <div class="sell__item-title">
+        <div class="sell__title">
           Sell Your Products
         </div>
-        <div class="sell__item-text sell__text">
+        <div class="sell__text">
           Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
           the mattis, leo quam aliquet diamcongue is laoreet elit metus.
         </div>
-        <a class="sell__item-btn" href="#">Become an Author</a>
+        <a class="sell__btn btn-white" href="#">Become an Author</a>
       </div>
       <div class="sell__item sell__item--buy">
-        <div class="sell__item-title">
+        <div class="sell__title">
           Start Shopping Today
         </div>
-        <div class="sell__item-text sell__text">
+        <div class="sell__text">
           Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
           the mattis, leo quam aliquet diamcongue is laoreet elit metus.
         </div>
-        <a class="sell__item-btn sell__item-btn--color" href="#">Start Shopping</a>
+        <a class="sell__btn btn-white btn-white--color" href="#">Start Shopping</a>
       </div>
     </section>
 
@@ -977,64 +1032,66 @@
           laborum dolo rumes fugats untras.
         </div>
         <div class="clients__inner">
-          <div class="clients__box">
-            <div class="clients__item">
-              <div class="clients__item-block">
-                <div class="clients__item-author" href="#">
-                  <img class="avatar" src="images/avatar.jpg" alt="">
-                  <div class="clients__item-info">
-                    <span class="name">Taofiqul Hakim</span>
-                    Product Designer</div>
-                </div>
-                <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+          <div class="clients__item">
+            <div class="clients__block">
+              <div class="clients__author" href="#">
+                <img class="clients__avatar" src="images/avatar.jpg" alt="">
+                <div class="clients__info">
+                  <span class="name">Taofiqul Hakim</span>
+                  Product Designer</div>
               </div>
-              <div class="clients__item-text">
-                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
-                the pharetra, justo ut scelerisque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa? Amet tenetur sit doloribus asperiores et saepe! Tempore inventore neque quis accusantium sequi eius ipsa modi sunt rerum, tenetur ex!
-              </div>
+              <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+            </div>
+            <div class="clients__text-content">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+              aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
+              the pharetra, justo ut scelerisque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa? Amet tenetur sit doloribus
+              asperiores et saepe! Tempore inventore neque quis accusantium sequi eius ipsa modi sunt rerum, tenetur
+              ex!
             </div>
           </div>
-          <div class="clients__box">
-            <div class="clients__item">
-              <div class="clients__item-block">
-                <div class="clients__item-author" href="#">
-                  <img class="avatar" src="images/avatar.jpg" alt="">
-                  <div class="clients__item-info">
-                    <span class="name">Taofiqul Hakim</span>
-                    Product Designer</div>
-                </div>
-                <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+          <div class="clients__item">
+            <div class="clients__block">
+              <div class="clients__author" href="#">
+                <img class="clients__avatar" src="images/avatar.jpg" alt="">
+                <div class="clients__info">
+                  <span class="name">Taofiqul Hakim</span>
+                  Product Designer</div>
               </div>
-              <div class="clients__item-text">
-                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
-                the pharetra, justo ut scelerisque.
-              </div>
+              <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+            </div>
+            <div class="clients__text-content">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+              aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
+              the pharetra, justo ut scelerisque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa? Amet tenetur sit doloribus
+              asperiores et saepe! Tempore inventore neque quis accusantium sequi eius ipsa modi sunt rerum, tenetur
+              ex!
             </div>
           </div>
-          <div class="clients__box">
-            <div class="clients__item">
-              <div class="clients__item-block">
-                <div class="clients__item-author" href="#">
-                  <img class="avatar" src="images/avatar.jpg" alt="">
-                  <div class="clients__item-info">
-                    <span class="name">Taofiqul Hakim</span>
-                    Product Designer</div>
-                </div>
-                <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+          <div class="clients__item">
+            <div class="clients__block">
+              <div class="clients__author" href="#">
+                <img class="clients__avatar" src="images/avatar.jpg" alt="">
+                <div class="clients__info">
+                  <span class="name">Taofiqul Hakim</span>
+                  Product Designer</div>
               </div>
-              <div class="clients__item-text">
-                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
-                the pharetra, justo ut scelerisque.
-              </div>
+              <div class="bubble"><span class="lnr lnr-bubble"></span></div>
+            </div>
+            <div class="clients__text-content">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+              aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent
+              the pharetra, justo ut scelerisque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsa? Amet tenetur sit doloribus
+              asperiores et saepe! Tempore inventore neque quis accusantium sequi eius ipsa modi sunt rerum, tenetur
+              ex!
             </div>
           </div>
         </div>
-        <div class="products__bottom-btn">
-          <button class="products__button" type="button">View All Reviews</button>
+        <div class="clients__bottom-btn bottom-btn">
+          <button class="bottom-btn__button" type="button">View All Reviews</button>
         </div>
       </div>
     </section>
@@ -1050,61 +1107,82 @@
             laborum dolo rumes fugats untras.
           </div>
           <div class="news__inner-box">
-            <div class="products__item">
-              <a class="news__img">
-                <img class="products__img-content" src="images/content/prod2.jpg" alt="">
-              </a>
-              <div class="news__products-content news__content">
-                <a class="news__products-title products__title title" href="#">
-                  Web Design Trends in 2017 Web Design Trends in 2017 The best advices to start your own project
+            <div class="news__item products-card">
+              <div class="products-card__item">
+                <a class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod2.jpg" alt="">
                 </a>
-                <div class="news__text-box products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo dolor perferendis hic quibusdam consequuntur blanditiis nam facere cumque iure, corrupti nisi itaque magni libero architecto atque. Harum, totam illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita fugiat quae ipsum! Praesentium adipisci, pariatur odit quibusdam cum exercitationem distinctio quis voluptate. Eaque natus excepturi non eligendi eveniet, minima dignissimos.
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    Web Design Trends in 2017
+                  </a>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo dolor perferendis
+                    hic quibusdam consequuntur blanditiis nam facere cumque iure, corrupti nisi itaque magni libero
+                    architecto atque. Harum, totam illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Expedita fugiat quae ipsum! Praesentium adipisci, pariatur odit quibusdam cum exercitationem
+                    distinctio quis voluptate. Eaque natus excepturi non eligendi eveniet, minima dignissimos.
+                  </div>
                 </div>
-              </div>
-              <div class="news__block products__block">
-                <time class="products__date products__btn" datetime="2017-02-24">24 Feb 2017</time>
-                <span class="products__message products__btn">45</span>
-                <span class="products__views products__btn">345</span>
+                <div class="products-card__block">
+                  <time class="products-card__date products-card__btn" datetime="2017-02-24">24 Feb 2017</time>
+                  <span class="products-card__message products-card__btn">45</span>
+                  <span class="products-card__views products-card__btn">345</span>
+                </div>
               </div>
             </div>
-            <div class="products__item">
-              <a class="news__img">
-                <img class="products__img-content" src="images/content/prod2.jpg" alt="">
-              </a>
-              <div class="news__products-content news__content">
-                <a class="news__products-title products__title title" href="#">
-                  The best advices to start your own project The best advices to start your own project
+            <div class="news__item products-card">
+              <div class="products-card__item">
+                <a class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod2.jpg" alt="">
                 </a>
-                <div class="news__text-box products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore modi, molestias quisquam a ullam doloribus labore impedit beatae obcaecati, repudiandae velit atque! Rem veritatis mollitia tempore iste fuga vero amet.
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    The best advices to start your own project
+                  </a>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo dolor perferendis
+                    hic quibusdam consequuntur blanditiis nam facere cumque iure, corrupti nisi itaque magni libero
+                    architecto atque. Harum, totam illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Expedita fugiat quae ipsum! Praesentium adipisci, pariatur odit quibusdam cum exercitationem
+                    distinctio quis voluptate. Eaque natus excepturi non eligendi eveniet, minima dignissimos.
+                  </div>
                 </div>
-              </div>
-              <div class="news__block products__block">
-                <time class="products__date products__btn" datetime="2017-02-24">24 Feb 2017</time>
-                <span class="products__message products__btn">45</span>
-                <span class="products__views products__btn">345</span>
+                <div class="products-card__block">
+                  <time class="products-card__date products-card__btn" datetime="2017-02-24">24 Feb 2017</time>
+                  <span class="products-card__message products-card__btn">45</span>
+                  <span class="products-card__views products-card__btn">345</span>
+                </div>
               </div>
             </div>
-            <div class="products__item">
-              <a class="news__img">
-                <img class="products__img-content" src="images/content/prod2.jpg" alt="">
-              </a>
-              <div class="news__products-content news__content">
-                <a class="news__products-title products__title title" href="#">
-                  Web Design Trends in 2017
+            <div class="news__item products-card">
+              <div class="products-card__item">
+                <a class="products-card__img">
+                  <img class="products-card__img-content" src="images/content/prod2.jpg" alt="">
                 </a>
-                <div class="news__text-box products__text">
-                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
-                  aliquet congue.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem dolore ratione vitae voluptatum dignissimos consequuntur excepturi accusantium. Numquam mollitia est fugit at consequuntur voluptas, soluta ratione nostrum labore ad.
+                <div class="products-card__content">
+                  <a class="products-card__title" href="#">
+                    Best Related Post Plugin
+                  </a>
+                  <div class="products-card__text">
+                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
+                    quam
+                    aliquet congue. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo dolor perferendis
+                    hic quibusdam consequuntur blanditiis nam facere cumque iure, corrupti nisi itaque magni libero
+                    architecto atque. Harum, totam illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Expedita fugiat quae ipsum! Praesentium adipisci, pariatur odit quibusdam cum exercitationem
+                    distinctio quis voluptate. Eaque natus excepturi non eligendi eveniet, minima dignissimos.
+                  </div>
                 </div>
-              </div>
-              <div class="news__block products__block">
-                <time class="products__date products__btn" datetime="2017-02-24">24 Feb 2017</time>
-                <span class="products__message products__btn">45</span>
-                <span class="products__views products__btn">345</span>
+                <div class="products-card__block">
+                  <time class="products-card__date products-card__btn" datetime="2017-02-24">24 Feb 2017</time>
+                  <span class="products-card__message products-card__btn">45</span>
+                  <span class="products-card__views products-card__btn">345</span>
+                </div>
               </div>
             </div>
           </div>
@@ -1116,14 +1194,14 @@
       <div class="container">
         <div class="guarantee__inner">
           <div class="guarantee__item">
-            <div class="guarantee__item-text">
-              30 Days Money Back 
+            <div class="guarantee__text">
+              30 Days Money Back
               <a class="guarantee__link" href="#">Guarantee</a>
             </div>
           </div>
           <div class="guarantee__item guarantee__item--support">
-            <div class="guarantee__item-text">
-              Fast and Friendly 
+            <div class="guarantee__text">
+              Fast and Friendly
               <a class="guarantee__link guarantee__link--color" href="#">Support</a>
             </div>
           </div>
@@ -1139,7 +1217,7 @@
         <div class="ready__text">
           Over 25,000 designers and developers trust the MartPlace.
         </div>
-        <a class="ready__btn sell__item-btn" href="#">Join Us Today</a>
+        <a class="ready__btn btn-white" href="#">Join Us Today</a>
       </div>
     </section>
   </main>
@@ -1158,33 +1236,33 @@
             </div>
             <a class="footer__info" href="tel:67898752235">+6789-875-2235</a>
             <a class="footer__info footer__info--email" href="mailto:support@aazztech.com">support@aazztech.com</a>
-            <div class="footer__info footer__info--address">
+            <address class="footer__info footer__info--address">
               202 New Hampshire Avenue
               Northwest #100, New York-2573
-            </div>
+            </address>
           </div>
           <div class="footer__col footer__col-menu">
             <div class="footer__col-title">Our Company</div>
             <ul class="footer__col-list">
-              <li><a class="footer__col-link" href="#">How It Work</a></li>
-              <li><a class="footer__col-link" href="#">Affiliates</a></li>
-              <li><a class="footer__col-link" href="#">About Us</a></li>
-              <li><a class="footer__col-link" href="#">Testimonials</a></li>
-              <li><a class="footer__col-link" href="#">Contact Us</a></li>
-              <li><a class="footer__col-link" href="#">Copyright Notice</a></li>
-              <li><a class="footer__col-link" href="#">Blog</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">How It Work</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Affiliates</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">About Us</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Testimonials</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Contact Us</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Copyright Notice</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Blog</a></li>
             </ul>
           </div>
           <div class="footer__col footer__col-menu">
             <div class="footer__col-title">Help Support</div>
             <ul class="footer__col-list">
-              <li><a class="footer__col-link" href="#">Support Forum</a></li>
-              <li><a class="footer__col-link" href="#">Terms & Conditions</a></li>
-              <li><a class="footer__col-link" href="#">Support Policy</a></li>
-              <li><a class="footer__col-link" href="#">Refund Policy</a></li>
-              <li><a class="footer__col-link" href="#">FAQs</a></li>
-              <li><a class="footer__col-link" href="#">Buyers Faq</a></li>
-              <li><a class="footer__col-link" href="#">Sellers Faq</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Support Forum</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Terms & Conditions</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Support Policy</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Refund Policy</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">FAQs</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Buyers Faq</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Sellers Faq</a></li>
             </ul>
           </div>
           <div class="footer__col">
@@ -1199,13 +1277,18 @@
               </label>
               <button class="footer__btn" type="submit">Submit</button>
             </form>
-            <ul class="footer__social-link">
-              <li><a class="link-facebook" href="#"></a></li>
-              <li><a class="link-twitter" href="#"></a></li>
-              <li><a class="link-google" href="#"></a></li>
-              <li><a class="link-pinterest" href="#"></a></li>
-              <li><a class="link-linkedin" href="#"></a></li>
-              <li><a class="link-zone" href="#"></a></li>
+            <ul class="footer__social-list">
+              <li class="footer__social-item"><a class="footer__social-link icon-facebook" href="#"></a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--twitter" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--google" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--pinterest"
+                  href="#"></a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--linkedin" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--dribbble" href="#"></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -1214,7 +1297,7 @@
     <div class="footer__copy">
       <div class="container">
         <div class="footer__copy-text">
-          ©2017 <a class="footer__copy-link" href="#">MartPlace.</a> All rights reserved. Created by <a
+          ©2017 <a class="footer__copy-link" href="#">MartPlace.</a> All rights reserved. createed by <a
             class="footer__copy-link" href="#">AazzTech</a>
         </div>
       </div>

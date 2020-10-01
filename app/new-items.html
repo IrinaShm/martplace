@@ -22,18 +22,68 @@
               <a class="header__seller" href="#">Become a Seller</a>
               <div class="header__icons">
                 <a class="header__icon header__icon--alarm " href="#">
-                  <span class="lnr lnr-alarm"></span>25</a>
+                  <span class="lnr-icon lnr-alarm"></span>25</a>
                 <a class="header__icon header__icon--message " href="#">
-                  <span class="lnr lnr-envelope"></span>6</a>
-                <a class="header__icon header__icon--basket " href="#">
-                  <span class="lnr lnr-cart"></span>2</a>
-              </div>
-              <a class="header__client client" href="#">
-                <img class="client__avatar" src="images/avatar.jpg" alt="avatar">
-                <div class="client__name">Taofiq Hakim
-                  <span class="client__sum">$20.45</span>
+                  <span class="lnr-icon lnr-envelope"></span>6</a>
+                <div class="header__dropdown dropdown">
+                  <a class="header__icon header__icon--basket" href="#">
+                    <span class="lnr-icon header__icon-span lnr-cart"></span>2</a>
+                  <div class="header__dropdown-cart dropdown-menu dropdown-menu--cart">
+                    <div class="header__item">
+                      <div class="header__info">
+                        <img class="header__dropdown-img" src="" alt="">
+                        <div class="header__title">Finance and Consulting
+                          Business Theme
+                        </div>
+                        <div class="header__price price">$20</div>
+                        <a class="header__category category" href="#">
+                          <img class="header__category-img" src="images/icons/wp.svg" alt="category-icon">
+                          Wordpress
+                        </a>
+                        <a class="header__trash lnr-trash" href="#"></a>
+                      </div>
+                      <div class="header__sum">
+                        <div class="header__sum-title">Total:</div>
+                        <div class="header__sum-total">$60</div>
+                      </div>
+                      <a class="header__cart-btn" href="#">Go to Cart</a>
+                      <a class="header__cart-btn header__cart-btn--checkout" href="#">Go to Checkout</a>
+                    </div>
+                  </div>
                 </div>
-              </a>
+              </div>
+              <div class="header__dropdown dropdown">
+                <a class="header__client client" href="#">
+                  <img class="client__avatar" src="images/avatar.jpg" alt="avatar">
+                  <div class="client__name">Taofiq Hakim
+                    <span class="client__sum">$20.45</span>
+                  </div>
+                </a>
+                <ul class="header__dropdown-user dropdown-menu dropdown-menu--user">
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-user" href="#">Profile
+                      Page</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-home" href="#">Dashboard</a>
+                  </li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-cog" href="#">Account
+                      Settings</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-cart" href="#">Your
+                      Purchases</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-heart" href="#">Your
+                      Favorites</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-dice" href="#">Add
+                      Credits</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-chart-bars" href="#">Sales
+                      Statements</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-upload" href="#">Upload
+                      Item</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-book" href="#">Edit Item</a>
+                  </li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-briefcase"
+                      href="#">Withdrawals</a></li>
+                  <li class="dropdown-menu__item"><a class="header__link dropdown-menu__link lnr-exit" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="header__menu">
@@ -42,13 +92,48 @@
                 <div class="menu__inner">
                   <ul class="menu__list">
                     <li class="menu__item">
-                      <a class="menu__link" href="#">Home</a>
+                      <div class="menu__dropdown dropdown">
+                        <a class="menu__link" href="#">Home</a>
+                        <ul class="menu__dropdown-home dropdown-menu">
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home One Multi User</a>
+                          </li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Two Single User</a>
+                          </li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home Three Product</a>
+                          </li>
+                        </ul>
+                      </div>
                     </li>
                     <li class="menu__item">
-                      <a class="menu__link" href="#">All products</a>
+                      <div class="menu__dropdown dropdown">
+                        <a class="menu__link" href="#">All products</a>
+                        <ul class="menu__dropdown-allproducts dropdown-menu">
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Recent Items</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Featured Items</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Free Templates</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Follow Feed</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Top Authorso</a></li>
+                        </ul>
+                      </div>
                     </li>
                     <li class="menu__item">
-                      <a class="menu__link" href="#">Wordpress</a>
+                      <div class="menu__dropdown dropdown">
+                        <a class="menu__link" href="#">Wordpress</a>
+                        <ul class="menu__dropdown-wordpress dropdown-menu">
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Popular Items</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Admin Templates</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Blog / Magazine / News</a>
+                          </li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">createive</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Corporate Business</a>
+                          </li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Resume Portfolio</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">eCommerce</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Entertainment</a></li>
+                          <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Landing Pages</a></li>
+                        </ul>
+                      </div>
                     </li>
                     <li class="menu__item">
                       <a class="menu__link" href="#">Festures</a>
@@ -77,7 +162,7 @@
       <section class="page">
         <div class="page__inner">
           <div class="page__text">
-            <span>4,572</span> wordpress themes, made with love
+            <span class="page__text-span">4,572</span> wordpress themes, made with love
           </div>
           <form class="page__search" action="">
             <label for="">
@@ -114,7 +199,7 @@
               </select>
               <div class="filter__buttons">
                 <button class="filter__button active icon-border-outer"></button>
-                <button class="filter__button lnr lnr-list"></button>
+                <button class="filter__button lnr-list"></button>
               </div>
             </div>
           </div>
@@ -128,19 +213,19 @@
                 </div>
                 <ul class="aside__list">
                   <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Landing
-                      Page</a><span>45</span></li>
+                      Page</a><span class="aside__number">45</span></li>
                   <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Psd
-                      Template</a><span>13</span></li>
+                      Template</a><span class="aside__number">13</span></li>
                   <li class="aside__item aside__item--arrow"><a class="aside__link"
-                      href="#">Wordpress</a><span>35</span></li>
-                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Plugins</a><span>08</span>
+                      href="#">Wordpress</a><span class="aside__number">35</span></li>
+                  <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Plugins</a><span class="aside__number">08</span>
                   </li>
                   <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">HTML
-                      Template</a><span>34</span></li>
+                      Template</a><span class="aside__number">34</span></li>
                   <li class="aside__item aside__item--arrow"><a class="aside__link"
-                      href="#">Components</a><span>78</span></li>
+                      href="#">Components</a><span class="aside__number">78</span></li>
                   <li class="aside__item aside__item--arrow"><a class="aside__link" href="#">Joomla
-                      Template</a><span>26</span></li>
+                      Template</a><span class="aside__number">26</span></li>
                 </ul>
               </div>
               <div class="aside__filter-product aside__items">
@@ -161,333 +246,333 @@
                 <div class="aside__title">
                   Pricing Range
                 </div>
-                <form action="">
+                <form class="price-range__form" action="">
                   <input type="text" class="js-range-slider" name="my_range" value="" />
-                  <button type="submit">Search Update</button>
+                  <button class="price-range__btn" type="submit">Search Update</button>
                 </form>
               </div>
             </aside>
             <div class="product-page__content">
-              <div class="product-page__items">
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+              <div class="product-page__items products-card">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18 - $50</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18 - $50</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18 - $50</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18 - $50</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="product-page__item products__item">
-                  <img class="product-page__img products__img-content" src="images/content/prod1.jpg" alt="">
+                <div class="product-page__item products-card__item">
+                  <img class="product-page__img products-card__img-content" src="images/content/prod1.jpg" alt="">
                   <div class="product-page__products-content">
-                    <a class="product-page__title products__title title" href="#">
+                    <a class="product-page__title products-card__title" href="#">
                       Finance and Consulting
-                      Business Theme Praesent phare dum mollis
+                      Business Theme 
                     </a>
                     <div class="product-page__text">
                       Nunc placerat mi id nisi inter dum mollis. Praesent phare... Lorem ipsum dolor sit amet
                       consectetur adipisicing elit. Officia repudiandae maxime quaerat quisquam nemo excepturi nesciunt
                       molestiae optio, porro nihil natus veniam adipisci quidem placeat qui reiciendis aut, nisi vitae.
                     </div>
-                    <a class="product-page__author products__author author" href="#">
-                      <span class="avatar" style="background-image: url(images/content/author.jpg);"></span>
+                    <a class="product-page__author products-card__author author" href="#">
+                      <img class="product-page__avatar avatar" src="images/avatar.jpg" alt="avatar">
                       Theme-Valley
                     </a>
-                    <button class="product-page__btn-like products__btn-like products__btn" type="button">
-                      <span class="btn-text">Add like</span>
+                    <button class="product-page__btn-like products-card__btn-like products-card__btn" type="button">
+                      <span class="speak">Add like</span>
                       90 loves</button>
-                    <span class="product-page__message products__message products__btn">90 Comments</span>
-                    <div class="product-page__star products__star">
+                    <span class="product-page__message products-card__message products-card__btn">90 Comments</span>
+                    <div class="product-page__star products-card__star">
                       <div class="rate-star"></div>
                       <span class="star">(34)</span>
                     </div>
-                    <button class="product-page__btn-basket products__btn-basket products__btn" type="button">
-                      <span class="btn-text">Add basket</span>
+                    <button class="product-page__btn-basket products-card__btn-basket products-card__btn" type="button">
+                      <span class="speak">Add basket</span>
                       246</button>
-                    <div class="product-page__block products__block">
-                      <div class="product-page__price products__price price">$18 - $50</div>
-                      <a class="product-page__category products__category category" href="#">
-                        <img class="products__category-img" src="images/icons/wp.svg" alt="category-icon">
+                    <div class="product-page__block products-card__block">
+                      <div class="product-page__price products-card__price price">$18</div>
+                      <a class="product-page__category products-card__category category" href="#">
+                        <img class="products-card__category-img" src="images/icons/wp.svg" alt="category-icon">
                         Wordpress
                       </a>
                     </div>
@@ -517,7 +602,7 @@
           <div class="ready__text">
             Over 25,000 designers and developers trust the MartPlace.
           </div>
-          <a class="ready__btn sell__item-btn" href="#">Join Us Today</a>
+          <a class="ready__btn btn-white" href="#">Join Us Today</a>
         </div>
       </section>
   </main>
@@ -535,33 +620,33 @@
             </div>
             <a class="footer__info" href="tel:67898752235">+6789-875-2235</a>
             <a class="footer__info footer__info--email" href="mailto:support@aazztech.com">support@aazztech.com</a>
-            <div class="footer__info footer__info--address">
+            <address class="footer__info footer__info--address">
               202 New Hampshire Avenue
               Northwest #100, New York-2573
-            </div>
+            </address>
           </div>
           <div class="footer__col footer__col-menu">
             <div class="footer__col-title">Our Company</div>
             <ul class="footer__col-list">
-              <li><a class="footer__col-link" href="#">How It Work</a></li>
-              <li><a class="footer__col-link" href="#">Affiliates</a></li>
-              <li><a class="footer__col-link" href="#">About Us</a></li>
-              <li><a class="footer__col-link" href="#">Testimonials</a></li>
-              <li><a class="footer__col-link" href="#">Contact Us</a></li>
-              <li><a class="footer__col-link" href="#">Copyright Notice</a></li>
-              <li><a class="footer__col-link" href="#">Blog</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">How It Work</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Affiliates</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">About Us</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Testimonials</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Contact Us</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Copyright Notice</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Blog</a></li>
             </ul>
           </div>
           <div class="footer__col footer__col-menu">
             <div class="footer__col-title">Help Support</div>
             <ul class="footer__col-list">
-              <li><a class="footer__col-link" href="#">Support Forum</a></li>
-              <li><a class="footer__col-link" href="#">Terms & Conditions</a></li>
-              <li><a class="footer__col-link" href="#">Support Policy</a></li>
-              <li><a class="footer__col-link" href="#">Refund Policy</a></li>
-              <li><a class="footer__col-link" href="#">FAQs</a></li>
-              <li><a class="footer__col-link" href="#">Buyers Faq</a></li>
-              <li><a class="footer__col-link" href="#">Sellers Faq</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Support Forum</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Terms & Conditions</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Support Policy</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Refund Policy</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">FAQs</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Buyers Faq</a></li>
+              <li class="footer__col-item"><a class="footer__col-link" href="#">Sellers Faq</a></li>
             </ul>
           </div>
           <div class="footer__col">
@@ -576,13 +661,18 @@
               </label>
               <button class="footer__btn" type="submit">Submit</button>
             </form>
-            <ul class="footer__social-link">
-              <li><a class="link-facebook" href="#"></a></li>
-              <li><a class="link-twitter" href="#"></a></li>
-              <li><a class="link-google" href="#"></a></li>
-              <li><a class="link-pinterest" href="#"></a></li>
-              <li><a class="link-linkedin" href="#"></a></li>
-              <li><a class="link-zone" href="#"></a></li>
+            <ul class="footer__social-list">
+              <li class="footer__social-item"><a class="footer__social-link icon-facebook" href="#"></a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--twitter" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--google" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--pinterest"
+                  href="#"></a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--linkedin" href="#"></a>
+              </li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--dribbble" href="#"></a>
+              </li>
             </ul>
           </div>
         </div>

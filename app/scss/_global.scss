@@ -17,8 +17,7 @@ a {
   text-decoration: none;
 }
 
-ul,
-li {
+@mixin reset-ul-li {
   padding: 0;
   margin: 0;
   list-style: none;
