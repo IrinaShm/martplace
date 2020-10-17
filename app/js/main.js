@@ -153,12 +153,26 @@ $('.icon-border-outer').on('click', function() {
 });
 
 $('.header__top-btn').on('click', function() {
-  $('.header__user').toggleClass('active');
+  $('.header__top-block').toggleClass('active');
+  // $('.header__icons').toggleClass('active');
 });
 
 $('.menu__btn').on('click', function() {
   $('.menu__list').slideToggle();
 });
+
+$('.aside__title-categories').on('click', function() {
+  $('.aside__list-categories').slideToggle();
+});
+
+$('.aside__title-filter-product').on('click', function() {
+  $('.aside__form-radio').slideToggle();
+});
+
+$('.aside__title-range').on('click', function() {
+  $('.price-range__form').slideToggle();
+});
+
 
 if($('div').is('.mix')){
   var mixer = mixitup('.release-products__inner-box');
