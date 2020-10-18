@@ -61,6 +61,13 @@
     margin: 250px 20px 30px 20px;
     line-height: 30px;
   }
+  .page__search-input {
+    width: 100%;
+  }
+  .product-page__item.list .product-page__products-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 1100px) {
   .footer__inner {
@@ -89,6 +96,12 @@
     height: 100%;
     min-width: 100%;
   }
+  .filter__price {
+    right: 39%;
+  }
+  .filter__number {
+    right: 14%;
+  }
 }
 @media (max-width: 940px) {
   .search__input {
@@ -110,6 +123,30 @@
     width: 100%;
   }
   .img-hover {
+    min-width: 100%;
+  }
+  .filter {
+    min-height: 215px;
+  }
+  .filter__price {
+    min-width: 100%;
+    top: 175%;
+    left: 0;
+    background-position: 97% 50%;
+  }
+  .filter__number {
+    min-width: 100%;
+    background-position: 97% 50%;
+    top: 325%;
+    left: 0;
+  }
+  .products-card__item {
+    min-width: auto;
+  }
+  .product-page__inner {
+    flex-wrap: wrap;
+  }
+  .product-page__aside {
     min-width: 100%;
   }
 }
@@ -199,12 +236,7 @@
   }
 }
 @media (max-width: 730px) {
-  // .header {
-  //   overflow-x: hidden;
-  //   position: relative;
-  // }
   .header__top {
-    // overflow: visible;
     min-height: 100px;
   }
   .header__top-btn {
@@ -279,6 +311,9 @@
   .user__avatar {
     margin-right: 8%;
   }
+  .ready__inner {
+    padding: 0px 15px;
+  }
 }
 @media (max-width: 630px) {
   .header__seller {
@@ -307,6 +342,22 @@
   .sell__text {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .page__search {
+    padding: 0 15px;
+  }
+  .page__search-btn {
+    margin-right: 15px;
+  }
+  .product-page__pagination {
+    justify-content: start;
+  }
+  .pagination__list {
+    padding-left: 10px;
+  }
+  .page__text {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (max-width: 520px) {
@@ -366,6 +417,30 @@
     left: 20%;   
     }
   }
+  .filter__box {
+    flex-wrap: wrap;
+  }
+  .filter__buttons {
+    margin-top: 15px;
+    margin-right: auto;
+  }
+  .filter {
+    min-height: 240px;
+  }
+  .filter__price {
+    padding-right: 15px;
+    margin-right: 0;
+    top: 175%;
+    left: 2%;
+    min-width: 98%;
+  }
+  .filter__number {
+    padding-right: 15px;
+    margin-right: 0;
+    top: 290%;
+    left: 2%;
+    min-width: 98%;
+  }
 }
 @media (max-width: 470px) {
   .create__inner {
@@ -390,6 +465,39 @@
     &.active {
     left: 22%;    
     }
+  }
+  .filter {
+    min-height: 285px;
+  }
+  .filter__price {
+    top: 132%;
+    left: 2%;
+  }
+  .filter__number {
+    top: 181%;
+    left: 2%;
+  }
+  .filter__btn {
+    width: 100%;
+    text-align: left;
+    &:first-child {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .filter__buttons {
+    width: 100%;
+    margin-left: 2%;
+    text-align: left;
+  }
+  .product-page__items {
+    padding: 0 15px;
+  }
+  .products-card__item {
+    margin-bottom: 20px;
+  }
+  .pagination__item {
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 410px) {

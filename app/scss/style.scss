@@ -2352,7 +2352,7 @@
   &__number,
   &__price {
     display: block;
-    width: 220px;
+    min-width: 220px;
     height: 44px;
     appearance: none;
     background-image: url(../images/icons/lnr-chevron-down.svg);
@@ -2418,7 +2418,7 @@
 
 .aside {
   &__items {
-    width: 263px;
+    min-width: 263px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
@@ -2513,13 +2513,11 @@
 }
 
 .price-range {
-  
   &__form {
     padding-top: 10px;
     padding-bottom: 37px;
     display: none;
   }
-
   &__btn {
     display: block;
     margin: 80px auto 0 auto;
@@ -2586,7 +2584,6 @@
       margin-left: 5px;
     }
   }
-
   &__link {
     display: block;
     padding: 8px 19px;
@@ -2627,13 +2624,16 @@
 .product-page {
   &__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 33px;
+    margin-left: -30px;
   }
 
   &__item {
-    max-width: 262px;
+    flex-basis: calc(33.3333% - 30px);
+    margin-left: 30px;
+    // transition: all .5s;
   }
 
   &__img {
@@ -2715,6 +2715,7 @@
   &.list {
     flex-direction: row;
     max-width: 100%;
+    flex-basis: 100%;
     .product-page__img {
       max-width: 230px;
       min-height: 100%;
