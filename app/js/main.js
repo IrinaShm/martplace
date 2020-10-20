@@ -59,7 +59,7 @@ $(function() {
   $('.followers-feed__inner').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    variableWidth: true,
+    // variableWidth: true,
     prevArrow:'<button class="slick-arrow slick-prew prew-color"><span class="lnr lnr-chevron-left"></span></button>',
     nextArrow:'<button class="slick-arrow slick-next next-color"><span class="lnr lnr-chevron-right"></span></button>',
     responsive: [

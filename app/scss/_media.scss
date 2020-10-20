@@ -39,7 +39,21 @@
     transform: translateX(-50%);
   }
   .release-products__inner-box {
-    justify-content: space-around;
+    .products-card__item {
+      flex-basis: calc(50% - 30px);
+    }
+    .products-card__img {
+      max-width: 100%;
+    }
+    .products-card__img-content {
+      width: 100%;
+    }
+    .img-hover {
+      min-width: 100%;
+    }
+  }
+  .product-page__item.list {
+    max-width: 75%;
   }
   .choose__box {
     justify-content: space-around;
@@ -113,9 +127,9 @@
   .followers-feed__item {
     width: 100%;
   }
-  .products-card__item {
-    min-width: 80%;
-  }
+  // .products-card__item {
+  //   min-width: 80%;
+  // }
   .products-card__img {
     min-width: 100%;
   }
@@ -140,19 +154,33 @@
     top: 325%;
     left: 0;
   }
-  .products-card__item {
-    min-width: auto;
-  }
   .product-page__inner {
     flex-wrap: wrap;
   }
+  .product-page__img {
+    min-width: 100%;
+  }
   .product-page__aside {
+    min-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .product-page__items {
+    margin-left: -15px;
+  }
+  .product-page__item {
+    flex-basis: calc(50% - 20px);
+    margin-left: 20px;
+    // min-width: 100%;
+  }
+  .product-page__img {
     min-width: 100%;
   }
 }
 @media (max-width: 840px) {
   .menu__list {
     display: none;
+    z-index: 10;
   }
   .menu__btn {
     display: block;
@@ -214,6 +242,16 @@
   .header__seller {
     display: block;
     margin-left: 11%;
+  }
+}
+@media (max-width: 800px) {
+  .release-products__inner-box {
+    .products-card__item {
+      flex-basis: 100%;
+    }
+  }
+  .products-card__content {
+    max-height: 219px;
   }
 }
 @media (max-width: 768px) {
@@ -360,6 +398,18 @@
     padding-right: 15px;
   }
 }
+@media (max-width: 600px) {
+  .product-page__items {
+    margin-left: -15px;
+  }
+  .product-page__item {
+    flex-basis: calc(100% - 20px);
+    margin-left: 20px;
+  }
+  .product-page__img {
+    min-width: 100%;
+  }
+}
 @media (max-width: 520px) {
   .footer__col {
     min-width: 100%;
@@ -385,8 +435,15 @@
   .release-products {
     padding: 50px 0;
   }
+  .release-products__inner-box {
+    padding: 10px;
+  }
   .products-card__img-content {
     width: 100%;
+  }
+  .release-products__title {
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .clients__title {
     line-height: 40px;
@@ -531,6 +588,18 @@
   .user__avatar {
     width: 35px;
     height: 35px;
+  }
+  .img-hover__btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 15px;
+  }
+  .products-card__title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .products-card__content {
+    max-height: 232px;
   }
 }
 
