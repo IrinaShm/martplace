@@ -60,10 +60,6 @@ const mySwiperFollowers = new Swiper('.followers__swiper-container', {
       slidesPerView: 3,
       spaceBetween: 30,
     },
-    // 1180: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 30
-    // },
   }
 });
 
@@ -143,9 +139,6 @@ $('.header__top-btn').on('click', function() {
 $('.menu__btn').on('click', function() {
   $('.menu__list').slideToggle();
 });
-
-
-
 
 
 // $(".menu__link").on('click', function() {
