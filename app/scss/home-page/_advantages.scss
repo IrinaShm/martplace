@@ -1,0 +1,67 @@
+.advantages {
+  background-color: #212225;
+  padding: 94px 0 83px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+
+  &__item {
+    max-width: 150px;
+    text-align: center;
+    @media (max-width: 768px) {
+      margin: 10px;
+    }
+  }
+
+  &__score {
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    color: #feb71d;
+
+    &--blue {
+      color: #58c9e9;
+    }
+
+    &--green {
+      color: #77de51;
+    }
+
+    &--red {
+      color: #ff6a6d;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+  }
+
+  .lnr-briefcase {
+    font-size: 48px;
+    color: #feb71d;
+  }
+
+  .lnr-cloud-download {
+    font-size: 48px;
+    color: #58c9e9;
+  }
+
+  .lnr-smile {
+    font-size: 48px;
+    color: #77de51;
+  }
+
+  .lnr-users {
+    font-size: 48px;
+    color: #ff6a6d;
+  }
+}

@@ -1,0 +1,85 @@
+.weekly-products {
+  background-color: #eff1f5;
+  position: relative;
+  padding: 120px 0 92px 0;
+
+  @media (max-width: 992px) {
+    padding: 70px 0;
+  }
+
+  &__slider {
+    margin: 0 auto;
+  }
+
+  &__title {
+    display: flex;
+  }
+
+  .prod-title {
+    &__title-span {
+  
+      @media (max-width: 576px) {
+        overflow: visible;
+        width: 100%;
+        margin-bottom: 0;
+      }
+    }
+  }
+ 
+  &__tags {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+    max-width: 486px;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: scroll;
+
+    @media (max-width: 1180px) {
+      overflow: visible;
+      min-width: 100%;
+      white-space: normal;
+    }
+  }
+
+  &__tags-link {
+    margin-right: 7px;
+    padding: 5px 16px;
+    border: 1px solid #ececec;
+    transition: all 1s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 1180px) {
+      margin-bottom: 15px;
+    }
+  }
+  
+  .button-arrow {
+    background-color:#0674ec;
+  
+    &:focus {
+      background-color: rgba(#0674ec, 0.9);
+      box-shadow: 0 0 5px 0 rgba(#0674ec, 0.8);
+    }
+    
+    &:hover {
+      background-color: rgba(#0674ec, 0.8);
+    }
+    
+    &:active {
+      box-shadow: inset 0 0 5px 0 rgba(#0674ec, 0.5);
+    }
+
+    @media (max-width: 576px) {
+      display: none;
+    }
+  }
+}
+
+.swiper-container {
+  width: 1140px;
+}
+

@@ -1,0 +1,36 @@
+.ready {
+  padding: 102px 0 110px;
+  background-color: #000;
+  background-image: linear-gradient(-90deg, rgb(13, 62, 242) 0%, rgb(64, 48, 201) 46%, rgb(114, 33, 160) 100%);
+  opacity: 0.902;
+
+  @media (max-width: 576px) {
+    padding: 70px 15px;
+  }
+
+  &__inner {
+    max-width: 526px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 22px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    display: block;
+    max-width: 190px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+  }
+}

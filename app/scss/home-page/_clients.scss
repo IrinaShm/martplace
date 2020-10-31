@@ -1,0 +1,157 @@
+.clients {
+  padding: 124px 0 120px;
+
+  @media (max-width: 992px) {
+    padding: 70px 0;
+  }
+  @media (max-width: 576px) {
+    padding: 50px 0;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 15px;
+  }
+
+  &__box {
+    width: 1170px;
+    // padding: 0 15px 0 0;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__inner {
+    display: flex;
+    width: 1200px;
+    padding: 30px 30px 30px 0px;
+
+    @media (max-width: 992px) {
+      padding: 0 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .slick-list {
+    overflow-x: hidden;
+  }
+
+  .slick-track {
+    display: flex;
+    min-width: 0;
+  }
+
+  &__item {
+    max-width: 555px;
+    width: 100%;
+    padding: 50px 40px 42px;
+    background-color: #fff;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    margin: 40px 30px 32px 0px;
+    border-left: 2px solid #0674ec;
+
+    // @media (max-width: 768px) {
+    //   max-width: 35%;
+    // }
+
+    // @media (max-width: 576px) {
+    //   max-width: 22%;
+    // }
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+
+  &__author {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #000;
+      font-weight: 700;
+    }
+  }
+
+  &__text-content {
+    line-height: 30px;
+    max-height: 114px;
+    overflow: hidden;
+  }
+
+  .bubble {
+    font-size: 60px;
+    color: #e8e8e8;
+  }
+
+  .arrow-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 14px;
+    color: #2787ef;
+    box-shadow: 0px 4px 15px 0px rgba(67, 67, 67, 0.15);
+    outline: transparent;
+    border: none;
+    z-index: 100;
+  }
+
+  .arrow-prew-white {
+    position: absolute;
+    left: -25px;
+    top: 44%;
+  }
+
+  .arrow-next-white {
+    position: absolute;
+    top: 44%;
+    right: -25px;
+  }
+}
+
+.item-title {
+  font-size: 36px;
+  line-height: 40px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 37px;
+
+  &__color-blue {
+    color: #0674ec;
+  }
+}
+
+.item-text {
+  max-width: 677px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto 60px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}

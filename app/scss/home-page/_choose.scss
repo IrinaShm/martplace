@@ -1,0 +1,97 @@
+.choose {
+  padding: 123px 0 97px;
+  @media (max-width: 992px) {
+    padding: 70px 0;
+  }
+  @media (max-width: 576px) {
+    padding: 50px 0;
+  }
+
+  &__title {
+    margin-bottom: 33px;
+  }
+
+  &__text {
+    margin-bottom: 42px;
+
+    @media (max-width: 768px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  &__item {
+    // width: 360px;
+    flex-basis: calc(100% / 3 - 20px);
+    text-align: center;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 17px;
+    
+    @media (max-width: 768px) {
+      flex-basis: calc(100% / 2 - 20px);
+    }
+    @media (max-width: 576px) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__number {
+    font-size: 48px;
+    line-height: 48px;
+    color: rgba(92, 135, 248, .2);
+    text-align: left;
+    margin: 20px 0 0 20px;
+  }
+
+  &__block {
+    padding: 0 32px 56px;
+  }
+
+  &__item-title {
+    margin-top: 37px;
+    margin-bottom: 26px;
+  }
+
+  &__item-text {
+    line-height: 30px;
+  }
+
+  .lnr-icon {
+    font-size: 60px;
+  }
+  
+  .lnr-license {
+    color: #0674ec;
+  }
+  
+  .lnr-magic-wand {
+    color: #885ac6;
+  }
+  
+  .lnr-lock {
+    color: #77de51;
+  }
+  
+  .lnr-chart-bars {
+    color: #feb71d;
+  }
+  
+  .lnr-leaf {
+    color: #63cdea;
+  }
+  
+  .lnr-phone {
+    color: #ff6a6d;
+  }
+}
